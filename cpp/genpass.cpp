@@ -89,12 +89,12 @@ inline void generate_username(::std::size_t n) noexcept
 	::fast_io::ibuf_white_hole_engine eng;
 	constexpr ::std::size_t english_letter_total_m1{english_letter_total -
 							1u};
-	std::uniform_int_distribution<std::size_t> ud(0,
+	::std::uniform_int_distribution<::std::size_t> ud(0,
 						      english_letter_total_m1);
-	std::uniform_int_distribution<std::size_t> rlen(6, 12);
-	for (std::size_t i{}; i != n; ++i)
+	::std::uniform_int_distribution<::std::size_t> rlen(6, 12);
+	for (::std::size_t i{}; i != n; ++i)
 	{
-		for (std::size_t j{}, s(rlen(eng)); j != s; ++j)
+		for (::std::size_t j{}, s(rlen(eng)); j != s; ++j)
 		{
 			auto ch{english_letter_expanded[ud(eng)]};
 			print(obf, fast_io::mnp::chvw(ch));

@@ -12,6 +12,28 @@
       "src": "icon.webp",
       "sizes": "512x512",
       "type": "image/webp"
+    },
+    {
+      "src": "icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "screenshots":
+  [
+    {
+      "src": "screenshots/desktop.webp",
+      "sizes": "2304x1536",
+      "type": "image/webp",
+      "form_factor": "wide",
+      "label": "desktop"
+    },
+    {
+      "src": "screenshots/mobile.webp",
+      "sizes": "1080x2424",
+      "type": "image/webp",
+      "form_factor": "narrow",
+      "label": "mobile"
     }
   ]
 }
