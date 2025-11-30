@@ -1,7 +1,11 @@
-# GenPass
+# WasmPass
 
-GenPass is a Progressive Web App (PWA) demo that showcases password, username, and PIN generation using WebAssembly (WASM) and JavaScript.  
+WasmPass is a Progressive Web App (PWA) that showcases password, username, and PIN generation using WebAssembly.  
 It provides a simple interface for generating secure data and includes usability enhancements like dark mode and a Back to Top button.
+
+This WasmPass is **empowered by [fast_io](https://github.com/cppfastio/fast_io)**.  
+It is directly copied from the author's fast_io library example for generating passwords, usernames, and PINs, and both implementations share **identical behaviors**.
+This ensures consistency between the native C++ implementation and the WebAssembly WasmPass.
 
 ---
 
@@ -14,7 +18,7 @@ It provides a simple interface for generating secure data and includes usability
   Generate random usernames for testing or account creation.
 
 - **PIN Generation**  
-  Produce numeric PINs (4-digit or 6-digit).
+  Produce numeric PINs.
 
 - **Adjustable Count**  
   Specify how many items to generate.

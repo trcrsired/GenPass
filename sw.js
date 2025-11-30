@@ -1,6 +1,6 @@
 // Increment this version when you change files
-const CACHE_VERSION = "v3";
-const CACHE_NAME = `genpass-cache-${CACHE_VERSION}`;
+const CACHE_VERSION = "v1";
+const CACHE_NAME = `wasmpass-cache-${CACHE_VERSION}`;
 
 const ASSETS = [
   "/",                   // root (allows index resolution)
