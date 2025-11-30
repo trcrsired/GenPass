@@ -1,5 +1,5 @@
 // Increment this version when you change files
-const CACHE_VERSION = "v2";
+const CACHE_VERSION = "v3";
 const CACHE_NAME = `genpass-cache-${CACHE_VERSION}`;
 
 const ASSETS = [
