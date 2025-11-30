@@ -169,14 +169,14 @@ document.getElementById("saveBtn").addEventListener("click", () => {
   const category = wasmExports.get_last_generated_category();
   let baseName = "data";
   switch (category) {
-    case 0: // password
+    case 0: // username
+      baseName = "username";
+      break;
+    case 1: // password
       baseName = "password";
       break;
-    case 1: // passwordspecial
+    case 2: // passwordspecial
       baseName = "passwordspecial";
-      break;
-    case 2: // username
-      baseName = "username";
       break;
     case 3: // pin
       baseName = "pin4";
